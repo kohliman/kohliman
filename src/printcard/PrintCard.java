@@ -23,6 +23,6 @@ public class PrintCard {
             System.out.println(c.getS() + " "+c.getV());
         }
         
-    }
+    }//knkknkn
     
 }
