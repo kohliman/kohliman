@@ -9,6 +9,10 @@ package status;
  * MidTerm-Exam
  * @author srinivsi
  */
+
+enum Userstatus{
+    REJECTDED,PENDING,PROCESSING,APPROVED}
+
 public class StausUser 
 {
    public void statusDetail(String code)
@@ -24,6 +28,9 @@ switch(code.toUpperCase())
         break;
         case "THREE": 
             System.out.println("APPROVED");
+        break;
+        case "FOUR": 
+            System.out.println("COMPLETED");
         break;
         default:
          System.out.println("NOT VALID CODE");
