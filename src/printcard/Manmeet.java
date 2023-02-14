@@ -9,11 +9,11 @@ package printcard;
  * high cohesion
  * @author user
  */
-public class GenerateCard
+public class Manmeet
 {
 private int size = 56;
 UnoCard[] deck = new UnoCard[size];
-public void generate()
+public void manmeet()
 {
     int c = 0;
     for(UnoCard.Suit s :UnoCard.Suit.values()) //enum suits Hearts

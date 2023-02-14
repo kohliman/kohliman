@@ -16,8 +16,8 @@ public class PrintCard {
      */
     public static void main(String[] args) {
         // print , delegated generation cards to the class
-        GenerateCard ins = new GenerateCard();
-        ins.generate(); // delegation cards are generated deck 
+        Manmeet ins = new Manmeet();
+        ins.manmeet(); // delegation cards are generated deck 
         for(UnoCard c:ins.deck)
         {
             System.out.println(c.getS() + " "+c.getV());
